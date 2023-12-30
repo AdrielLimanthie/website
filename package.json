@@ -1,0 +1,16 @@
+{
+	"name": "website",
+	"private": "true",
+	"version": "1.0.0",
+	"description": "Repository for Adriel's page",
+	"main": "src/index.js",
+	"scripts": {
+		"build": "cp -a ./src/. ./static/"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"prettier": "^3.1.1"
+	}
+}
